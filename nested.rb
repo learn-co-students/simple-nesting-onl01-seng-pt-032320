@@ -134,5 +134,5 @@ def adding_to_dennis
         }
      }
 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-programmer_hash
+programmer_hash # Here we are returning the programmer_hash because on the previous line we modify it and in this line it returns the updated hash from the previous line
 end
